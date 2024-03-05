@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper{
+            display: flex;
+            flex-flow: row wrap;
+            text-align: center;
+        }
+        .wrapper > *{
+            padding: 10px;
+            margin: 10px;
+            flex: 1 100%;
+            border-radius: 10px;
+        }
+        .footer{
+            background: blue;
+            height: 100px;
+        }
+        .aside1{
+            background: rgb(74, 74, 155);
+            height: 100px;
+        
+        }
+        .aside2{
+            background: rgb(21, 21, 212);
+            height: 200px;
+        }
+        @media all and (min-width:800px){
+            .aside1{
+                order: 1;
+            }
+            .aside2{
+                order: 2;
+            }
+            .footer{
+                order: 3;
+            }
+
+        }
+    </style>
+ </head> 
+ <body>
+    <div class="wrapper">
+    <h1>weather TEMPLATE</h1>
+     <aside class="aside1">
+        <h1>hdsjgydj</h1>
+
+     </aside>
+     <aside class="aside2">
+        <img src="image.jfif">
+        <h3>shfuhsiu</h3>
+
+     </aside>
+     <footer class="footer">
+        <h1>gjykuytku</h1>
+     </footer>
+    </div>
+</body>
+</html>
+
+            

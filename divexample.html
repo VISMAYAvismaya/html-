@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  *{
+    box-sizing: border-box;
+  }
+  .left{
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 20px;
+    color: black;
+  }
+  .middle{
+    background-color: blue;
+    margin: 20px;
+    padding: 20px;
+    color:black;
+  }
+  .right{
+    background-color: brown;
+    margin: 20px;
+    padding: 20px;
+    color: black;
+  }
+  @media screen and (max-width:992px)
+  {
+    div.left{
+      width: 30%;
+    }
+    div.middle{
+      width: 50%;
+    }
+    div.right{
+      width: 20%;
+    }
+  }
+  @media screen and (max-width:500px)
+  {
+    div.left{
+      width: 20%;
+    }
+    div.middle{
+      width: 40%;
+    }
+    div.right{
+      width: 40%;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="left">
+    <h2>left area</h2>
+  </div>
+  <div class="middle">
+    <h2>Middle area</h2>
+  </div>
+  <div class="right">
+    <h2>Right area</h2>
+  </div>
+</body>
+   

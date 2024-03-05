@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul.leaders {
+    max-width: 20em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none}
+     ul.leaders li:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+ ". . . . . . . . ."
+ ". . . . . . . . . . .  "
+ ". . . . . . . . . . . . . .  "
+ ". . . . . . .   "}
+ul.leaders span:first-child {
+    padding-right: 0.33em;
+    background: white}
+ul.leaders span + span {
+    float: right;
+    padding-left: 0.33em;
+    background: white}
+
+    </style>
+    
+</head>
+<body>
+    <h2>dot leaders</h2>
+    <ul class=leaders>
+        <li><span>Salmon Ravioli</span>
+         <span>7.95</span>
+        <li><span>Fried Calamari</span>
+         <span>8.95</span>
+        <li><span>Almond Prawn Cocktail</span>
+         <span>7.95</span>
+        <li><span>Bruschetta</span>
+         <span>5.25</span>
+        <li><span>Margherita Pizza</span>
+         <span>10.95</span>
+        </ul>
+        <ul class="leaders">
+            <li>
+                <span>WIND SPEED(KNOTS)</span>
+                <span>13</span>
+            <li>
+                <span>WIND GUSTS(KNOTS)</span>
+                <span>14</span>
+            <li>
+                <span>WIND DIRECTION</span>
+                <span>SW</span>
+            <li>
+                <span>WAVE(M)</span>
+                <span>2.2</span>
+            <li>
+                <span>WAVE PERIOD(S)</span>
+                <span>12</span>
+            <li>
+                <span>WAVE DIRECTION</span>
+                <span>SW</span>
+            <li>
+                <span>TEMPERATURE('C)</span>
+                <span>23</span>
+            <li>
+                <span>CLOUD COVER(%)</span>
+                <span>-</span>
+        </ul>
+    
+</body>
+</html>
